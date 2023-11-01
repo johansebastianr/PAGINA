@@ -1,0 +1,82 @@
+body{
+    margin: 0; 
+    padding: 0;
+    background: url(IMG/OIP.jpg) no-repeat center top; 
+    background-size: cover;
+    font-family: sans-serif;
+    height:100vh;
+}
+
+.login-box{
+    width: 360px; 
+    height: 470px;    
+    color: #000000; 
+    top:50%; 
+    left: 50%; 
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 75px 30px;
+    border-radius: 8%;
+    backdrop-filter: blur(20px);
+}
+
+
+
+.login-box  .avatar{
+    width: 150px; 
+    height: 130px; 
+    border-radius: 50%;
+    position: absolute; 
+    top: -50px; 
+    left:calc(50% - 75px);
+    }
+
+
+.login-box .h1{
+    margin: 0%; 
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    }
+
+
+.login-box input{
+    width: 100%; 
+    margin-bottom:20px; 
+    }
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    border:none;
+    border-bottom: 1px solid rgb(97, 102, 155); /*color de borde de caja de texto*/
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: #e7dede;
+    font-size: 15px; 
+    border-radius: 56px;
+    }
+
+.login-box input[type="submit"] {
+    border:none;
+    outline: none;
+    height: 30px;
+    background: rgb(184, 45, 45);
+    color: #fff;
+    font-size: 18px; /*tamaño de letra del boton*/
+    border-radius: 18px;
+    }
+
+    /*ahora estilizamos los links*/
+
+.login-box a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    }
+    
+.login-box a:hover{
+    color: rgb(85, 80, 80); 
+    }
